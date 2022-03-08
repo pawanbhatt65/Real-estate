@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Landing Page</title>
+  <!-- link font awesome -->
+  <link rel="stylesheet" href="icons/css/all.min.css">
+  <!-- slick css -->
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <!-- link bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- link custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header start -->
+  <header class="header-section">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="img-fluid"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features<sup class="ms-auto ms-lg-0">*</sup></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#agent">The Agent</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="list-inline d-none d-lg-block">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- nav head start -->
+    <div class="top-gap" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="sell">
+              <h1>Sell Your Property With Aven</h1>
+              <p>With Aven responsive landing page template, you can promote your all property & real estate projects.
+              </p>
+              <button class="btn-view">view gallery</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <div class="contact-form">
+              <h3><span><i class="far fa-envelope"></i></span>quick appointment</h3>
+              <form action="#" method="post" name="headForm" class="row" onsubmit="return validForm()">
+                <div class="col-6">
+                  <input type="text" name="firstName" placeholder="First Name" class="form-control first-name">
+                  <span id="firstName"></span>
+                </div>
+                <div class="col-6">
+                  <input type="text" name="lastName" placeholder="Last Name" class="form-control first-name">
+                  <span id="lastName"></span>
+                </div>
+                <div class="col-6">
+                  <input type="text" name="userEmail" placeholder="Your Email" class="form-control first-name">
+                  <span id="userEmail"></span>
+                </div>
+                <div class="col-6">
+                  <input type="tel" name="userPhone" minlength="10" maxlength="12" placeholder="Your Phone"
+                    class="form-control first-name">
+                </div>
+                <div class="col-6">
+                  <select class="form-select first-name" aria-label="Default select example">
+                    <option selected>Select Time</option>
+                    <option value="weekDays">Week Days</option>
+                    <option value="yearly">Yearly</option>
+                    <option value="monthly">Monthly</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <select class="form-select first-name" aria-label="Default select example">
+                    <option selected>$100 - $200</option>
+                    <option value="$201 - $400">$201 - $400</option>
+                    <option value="$401 - $600">$401 - $600</option>
+                    <option value="$601 - $800">$601 - $800</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <input type="submit" value="Get an appointment" class="btn-form-head">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav head end -->
+  </header>
+  <!-- header end -->
+  <!-- property details start -->
+  <section class="property-details" id="features">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-8 offset-md-2">
+          <div class="detail">
+            <ul>
+              <li>ALL AWESOME PROPERTY DETAILS</li>
+              <li>Property Details</li>
+              <li>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed
+                a tellus quis mi rhoncus dignissim.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fas fa-cut"></i></span>
+            <ul>
+              <li>Square Feet : </li>
+              <li>3200px</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fas fa-users"></i></span>
+            <ul>
+              <li>Ideal For Family</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fas fa-city"></i></span>
+            <ul>
+              <li>Garage : 2</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fas fa-flag-usa"></i></span>
+            <ul>
+              <li>Bedrooms : 3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fas fa-swimming-pool"></i></span>
+            <ul>
+              <li>Pool : Yes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+          <div class="property-box">
+            <span><i class="fab fa-simplybuilt"></i></span>
+            <ul>
+              <li>Build In : 2015</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class="show-property">
+            <div class="zoom-property position-relative">
+              <img src="images/estate_01.jpg" alt="site" class="img-fluid d-block">
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+            <ul>
+              <li>Spacious and Large Garden</li>
+              <li>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec
+                purus vitae, iaculis posuere sapien. Cum sociis natoque.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class="show-property">
+            <div class="zoom-property position-relative">
+              <img src="images/estate_03.jpg" alt="site" class="img-fluid d-block">
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+            <ul>
+              <li>With its Own Pool</li>
+              <li>Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum
+                euismod. Nullam vestibulum fermentum erat. It nam auctor.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+          <div class="show-property">
+            <div class="zoom-property position-relative">
+              <img src="images/estate_02.jpg" alt="site" class="img-fluid d-block">
+              <a href="#"><i class="fas fa-link"></i></a>
+            </div>
+            <ul>
+              <li>In Forests- Fresh Clean Air</li>
+              <li>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam
+                at eget quam. Integer ultricies et magna quis.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- property details end -->
+  <!-- agent details start -->
+  <section class="agent-details" id="agent">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="agent-info">
+            <h3 class="text-center">Agent Details</h3>
+            <p class="text-center">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non
+              aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-9">
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-lg-4 agent-viedo">
+                <img src="images/agent.jpg" class="img-fluid rounded-start" alt="Agent">
+                <a href="#"><i class="far fa-play-circle"></i></a>
+              </div>
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h5 class="card-title">THE AGENT</h5>
+                  <h3 class="card-title">Jenny Martines</h3>
+                  <p class="card-text"><i>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                      enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</i></p>
+                  <p class="card-text">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed
+                    tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  <button>Contact Me</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3">
+          <ul class="agent-contact">
+            <li><a href="#">support@sitename.com</a></li>
+            <li><a href="#"> www.sitename.com</a></li>
+            <li> +1 232 444 55 66</li>
+            <li>+1 232 444 55 66</li>
+            <li><a href="#"> facebook.com/tagline</a></li>
+            <li><a href="#">twitter.com/tagline</a></li>
+            <li><a href="#">linkedin.com/tagline</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- agent details end -->
+  <!-- property gallery -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-8 offset-md-2">
+          <div class="gallery-details">
+            <h3>Property Gallery</h3>
+            <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a
+              tellus quis mi rhoncus dignissim.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_01.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_02.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_03.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_04.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_05.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery-img">
+            <a href="#"><img src="images/home_06.jpg" alt="home" class="img-fluid"></a>
+            <div>
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- property gallery -->
+  <!-- happy customer start -->
+  <section class="testimonial" id="testimonials">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="happy-customer">
+              <h3>Happy Customer</h3>
+              <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a
+                tellus quis mi rhoncus dignissim.</p>
+            </div>
+          </div>
+        </div>
+      <div class="testimonial__inner">
+        <div class="testimonial-slider">
+          <div class="testimonial-slide">
+            <div class="testimonial_box">
+              <div class="testimonial_box-inner">
+                <div class="testimonial_box-top">
+                  <div class="testimonial_box-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="testimonial_box-text">
+                    <h3> Wonderful Support!</h3>
+                    <p>They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                  </div>
+                  <div class="testimonial_box-shape"></div>
+                </div>
+                <div class="testimonial_box-bottom">
+                  <div class="testimonial_box-profile">
+                    <div class="testimonial_box-img">
+                      <img src="images/1.jpg" alt="profile">
+                    </div>
+                    <div class="testimonial_box-info">
+                      <div class="testimonial_box-name">
+                        <h4>John Doe</h4>
+                      </div>
+                      <div class="testimonial_box-job">
+                        <p>MANAGER</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial_box">
+              <div class="testimonial_box-inner">
+                <div class="testimonial_box-top">
+                  <div class="testimonial_box-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="testimonial_box-text">
+                    <h3> Awesome Services!</h3>
+                    <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <div class="testimonial_box-shape"></div>
+                </div>
+                <div class="testimonial_box-bottom">
+                  <div class="testimonial_box-profile">
+                    <div class="testimonial_box-img">
+                      <img src="images/2.jpg" alt="profile">
+                    </div>
+                    <div class="testimonial_box-info">
+                      <div class="testimonial_box-name">
+                        <h4>James Fernando </h4>
+                      </div>
+                      <div class="testimonial_box-job">
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial_box">
+              <div class="testimonial_box-inner">
+                <div class="testimonial_box-top">
+                  <div class="testimonial_box-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="testimonial_box-text">
+                    <h3> Great & Talented Team!</h3>
+                    <p>The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                  </div>
+                  <div class="testimonial_box-shape"></div>
+                </div>
+                <div class="testimonial_box-bottom">
+                  <div class="testimonial_box-profile">
+                    <div class="testimonial_box-img">
+                      <img src="images/1.jpg" alt="profile">
+                    </div>
+                    <div class="testimonial_box-info">
+                      <div class="testimonial_box-name">
+                        <h4>John Doe</h4>
+                      </div>
+                      <div class="testimonial_box-job">
+                        <p>MANAGER</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="testimonial_box">
+              <div class="testimonial_box-inner">
+                <div class="testimonial_box-top">
+                  <div class="testimonial_box-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <div class="testimonial_box-text">
+                    <h3> Wonderful Support!</h3>
+                    <p>They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                  </div>
+                  <div class="testimonial_box-shape"></div>
+                </div>
+                <div class="testimonial_box-bottom">
+                  <div class="testimonial_box-profile">
+                    <div class="testimonial_box-img">
+                      <img src="images/2.jpg" alt="profile">
+                    </div>
+                    <div class="testimonial_box-info">
+                      <div class="testimonial_box-name">
+                        <h4>James Fernando </h4>
+                      </div>
+                      <div class="testimonial_box-job">
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- happy customer end -->
+  <!-- location start -->
+  <section class="location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13929.360839051315!2d79.50940478767659!3d29.213545993542567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09addbd0c86d1%3A0x6793e360cb3d930f!2sHaldwani%2C%20Uttarakhand%20263139!5e0!3m2!1sen!2sin!4v1646554854803!5m2!1sen!2sin"
+      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <!-- location end -->
+  <!-- contact form start -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="contact-info">
+            <h3>Get an Appointment Today <sup>*</sup></h3>
+            <p>Let us give you more details about the special offer website you want us. Please fill out the form below.
+              We have million of website owners who happy to work with us!</p>
+          </div>
+        </div>
+        <div class="col-11 col-md-9 col-1g-8 mx-auto">
+          <form action="#" method="post" class="row form" name="myContact" onsubmit="return validContact()">
+            <div class="col-12 col-md-6">
+              <input type="text" name="firstName" placeholder="First Name"
+                class="form-control form-control-lg last-name">
+              <span id="fName"></span>
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" name="lastName" placeholder="Last Name" class="form-control form-control-lg last-name">
+              <span id="lName"></span>
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" name="userEmail" placeholder="Your Email"
+                class="form-control form-control-lg last-name">
+              <span id="uEmail"></span>
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="tel" name="userPhone" placeholder="Your Phone" minlength="10" maxlength="13"
+                class="form-control form-control-lg last-name">
+            </div>
+            <div class="col-12 col-md-6">
+              <select class="form-select form-select-lg last-name" aria-label="Default select example">
+                <option selected>Select Time</option>
+                <option value="weekDays">Week Days</option>
+                <option value="yearly">Yearly</option>
+                <option value="monthly">Monthly</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-6">
+              <select class="form-select form-select-lg last-name" aria-label="Default select example">
+                <option selected>$100 - $200</option>
+                <option value="$201 - $400">$201 - $400</option>
+                <option value="$401 - $600">$401 - $600</option>
+                <option value="$601 - $800">$601 - $800</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <textarea cols="30" rows="5" class="form-control form-control-lg last-name"
+                placeholder="Give us more details..."></textarea>
+            </div>
+            <div class="col-12">
+              <input type="submit" value="Get Appointment" class="btn-form-bottom">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact form end -->
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="footer-part-1">
+              <img src="images/logo.png" alt="logo" class="img-fluid d-block">
+              <p>Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+              <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="footer-part-2">
+              <h3>Contact Details</h3>
+              <ul>
+                <li><a href="#">info@yoursite.com</a></li>
+                <li><a href="#">www.yoursite.com</a></li>
+                <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                <li>+61 3 8376 6284</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="footer-part-3">
+              <h3>Twitter Feed</h3>
+              <ul>
+                <li><a href="#"> @Rt_miOnline o zaman en yakın Apple Store seni bekler geçmiş olsun</a></li>
+                <li><a href="#"> @Harry - Thanks you so much for your help. Still waiting update for my Ticket!</a></li>
+                <li><a href="#"> @MedyaPet - Welcome to the our community dude! You are awesome!</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-part-4">
+              <h3>Social</h3>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i> 22.543 Likes</a></li>
+                <li><a href="#"><i class="fab fa-github"></i> 128 Projects</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> 12.860 Followers</a></li>
+                <li><a href="#"><i class="fas fa-globe"></i> 3312 Shots</a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i> 3331 Pins</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="copywrites-1">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">blog</a></li>
+                <li class="list-inline-item"><a href="#">pricing</a></li>
+                <li class="list-inline-item"><a href="#">about</a></li>
+                <li class="list-inline-item"><a href="#">faq</a></li>
+                <li class="list-inline-item"><a href="#">contact</a></li>
+              </ul>
+              <p>All Rights Reserved. <a href="#">html.design</a> &copy; 2021</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="copywrites-2">
+              <input type="text" placeholder="Subscribe our newsletter..." class="form-control form-control-lg">
+              <i class="far fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    // $(document).on('scroll',function(){
+    //   if(window).scrollTop() > 50{
+    //     $(".header-section nav").addClass("changeColor");
+    //   } else {
+    //     $(".header-section nav").removeClass("changeColor");
+    //   }
+    // });
+
+    function validForm() {
+      var firstName = document.headForm.firstName.value;
+      var lastName = document.headForm.lastName.value;
+      var email = document.headForm.userEmail.value;
+      var atPosition = email.indexOf("@");
+      var dotPosition = email.indexOf(".");
+      if (firstName == null || firstName == "") {
+        doxument.getElementById("firstName").innerHTML = "Please enter your first name";
+        document.getElementById("firstName").style.color = "red";
+        return false;
+      } else if (lastName == null || lastName == "") {
+        document.getElementById("lastName").innerHTML = "Please enter your last name";
+        document.getElementById("lastName").style.color = "red";
+        return false;
+      } else if (atPosition < 1 || dotPosition < atPosition + 2 || dotPosition + 2 > email.length) {
+        document.getElementById("userEmail").innerHTML = "Please enter your correct email address";
+        document.getElementById("userEmail").style.color = "red";
+        return false;
+      } else {
+        return true;
+      }
+    }
+
+    function validContact() {
+      var fName = document.myContact.firstName.value;
+      var lName = document.myContact.lastName.value;
+      var userEmail = document.myContact.userEmail.value;
+      var atPosition = userEmail.indexOf("@");
+      var dotPosition = userEmail.indexOf(".");
+      if (fName == null || fName == "") {
+        document.getElementById("fName").innerHTML = "Please enter your first name";
+        document.getElementById("fName").style.color = "red";
+        return false;
+      } else if (lName == null || lName == "") {
+        document.getElementById("lName").innerHTML = "Please enter your last name";
+        document.getElementById("lName").style.color = "red";
+        return false;
+      } else if (atPosition < 1 || dotPosition < atPosition + 2 || dotPosition + 2 > userEmail.length) {
+        document.getElementById("uEmail").innerHTML = "Please enter your correct email address";
+        document.getElementById("uEmail").style.color = "red";
+        return false;
+      } else {
+        return true;
+      }
+    }
+
+    // carousel start
+    $(document).ready(function () {
+      $('.testimonial-slider').slick({
+        autoplay: false,
+        autoplaySpeed: 1000,
+        speed: 600,
+        draggable: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });
+    });
+    // carousel end
+  </script>
+</body>
+
+</html>
