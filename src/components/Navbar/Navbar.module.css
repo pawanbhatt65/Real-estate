@@ -1,0 +1,42 @@
+.nav {
+  padding: 30px 30px;
+}
+.logo {
+  width: 12%;
+  color: rgba(0, 0, 0, 0.9);
+}
+.navlinksItem {
+  color: #fff;
+  padding: 0px 5px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.navlinksItem sup {
+  color: #229be1;
+  font-size: 26px;
+  top: 0px;
+  font-weight: bold;
+}
+.navlinksItem:hover {
+  color: rgba(255, 255, 255, 0.486);
+}
+.mediaLink {
+  line-height: 33px;
+  font-size: 16px;
+  height: 33px;
+  width: 33px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.mediaLink:hover {
+  color: rgba(255, 255, 255, 0.486);
+  border-color: rgba(255, 255, 255, 0.486);
+}

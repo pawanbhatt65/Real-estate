@@ -1,0 +1,123 @@
+.agent-details {
+  position: relative;
+  background-color: #1f1f1f;
+  padding: 70px 0px;
+}
+.agent-details::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: #1f1f1f;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.agent-details::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: #1f1f1f;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.agent-info {
+  margin-bottom: 45px;
+}
+.agent-info h3 {
+  color: white;
+  font-size: 34px;
+}
+.agent-info p {
+  color: #bcbcbc;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.card {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 1rem;
+}
+.agent-viedo {
+  position: relative;
+}
+.agent-viedo a {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  font-size: 32px;
+}
+h5.card-title {
+  color: #bcbcbc;
+}
+h3.card-title {
+  color: white;
+  font-size: 34px;
+}
+.card-text {
+  color: #bcbcbc;
+}
+.agent-contact li {
+  padding: 7px 0px 7px 40px;
+  position: relative;
+  color: #bcbcbc;
+}
+.agent-contact li::before {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  background-color: #232323;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  border: none;
+  border-radius: 100%;
+  text-align: center;
+}
+.agent-contact li:nth-child(1)::before {
+  content: "\f0e0";
+}
+.agent-contact li:nth-child(2)::before {
+  content: "\f0c1";
+}
+.agent-contact li:nth-child(3)::before {
+  content: "\f87b";
+}
+.agent-contact li:nth-child(4)::before {
+  content: "\f02f";
+}
+.agent-contact li:nth-child(5)::before {
+  content: "\f082";
+  font-family: "Font Awesome 5 Brands";
+}
+.agent-contact li:nth-child(6)::before {
+  content: "\f081";
+  font-family: "Font Awesome 5 Brands";
+}
+.agent-contact li:nth-child(7)::before {
+  content: "\f08c";
+  font-family: "Font Awesome 5 Brands";
+}
+.agent-contact li a {
+  color: inherit;
+}

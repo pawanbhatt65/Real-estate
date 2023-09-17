@@ -1,0 +1,70 @@
+.topGap {
+  margin-top: 170px;
+}
+.sell h1 {
+  font-size: 56px;
+  color: white;
+  font-weight: bolder;
+}
+.sell p {
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+@media (min-width: 1401px) {
+  .sell h1 {
+    font-size: 70px;
+  }
+}
+.btn-view {
+  margin-top: 50px;
+}
+.contact-form {
+  background-color: white;
+  padding: 30px 40px;
+  -webkit-box-shadow: 0px 0px 0px 0px #c4c4c4;
+  box-shadow: 0px 0px 0px 0px #c4c4c4;
+}
+.contact-form h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.contact-form h3 span {
+  color: white;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#7d48c4),
+    to(#229be1)
+  );
+  background: linear-gradient(to right, #7d48c4 0%, #229be1 100%);
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.first-name {
+  margin: 10px 0px;
+  color: #bcbcbc;
+  border: 1px solid #ebebeb;
+}
+.first-name:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+  color: #bcbcbc;
+  background-color: #fff;
+  border-color: #ebebeb;
+  outline: 0;
+}
+.btn_form_head {
+  width: 100%;
+  border-radius: 20px;
+  padding: 12px 0px;
+  margin-top: 14px;
+}

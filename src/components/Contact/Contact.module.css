@@ -1,0 +1,42 @@
+.contact {
+  padding: 70px 0px;
+}
+.contact .contact-info {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contact .contact-info h3 {
+  font-size: 40px;
+}
+.contact .contact-info h3 sup {
+  color: #229be1;
+}
+.contact .contact-info p {
+  letter-spacing: 2px;
+  margin-top: 14px;
+  font-size: 17px;
+  color: #bcbcbc;
+}
+.contact .form {
+  background-color: #ebebeb;
+  padding: 35px 25px;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 16px 1px #bcbcbc;
+  box-shadow: 0px 0px 16px 1px #bcbcbc;
+}
+.contact .form .last-name {
+  margin: 10px 0px;
+  color: #bcbcbc;
+  border: 1px solid #ebebeb;
+}
+.contact .form .last-name:focus {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+.btn-form-bottom {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
